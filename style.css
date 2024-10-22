@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+@media screen and (max-width : 600px){
+    button{
+        display:none;
+    }
+}
